@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.css";
 import Banner from "./home";
 import Navbar from "./navbar";
 import Portfolio from "./portfolio";
+import Services from "./services";
+import Blogs from "./blogs";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Navbar />
         <Banner />
         <Portfolio />
+        <Services />
+        <Blogs />
       </main>
 
       <footer className={styles.footer}>
